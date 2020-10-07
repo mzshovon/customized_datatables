@@ -1,0 +1,100 @@
+.dt-button{
+    position: relative!important;
+display: inline-block!important;
+box-sizing: border-box!important;
+margin-right: 0.333em!important;
+margin-bottom: 0.333em!important;
+padding: 0.5em 1em!important;
+border: 1px solid #45a7b0!important;
+border-radius: 4px!important;
+cursor: pointer!important;
+font-size: 0.88em!important;
+line-height: 1.6em!important;
+color: white!important;
+white-space: nowrap!important;
+overflow: hidden!important;
+background-color: #45a7b0!important;
+/* background: -webkit-linear-gradient(top, rgba(230,230,230,0.1) 0%, rgba(0,0,0,0.1) 100%); */
+background: -moz-linear-gradient(top, rgba(230,230,230,0.1) 0%, rgba(0,0,0,0.1) 100%);
+background: -ms-linear-gradient(top, rgba(230,230,230,0.1) 0%, rgba(0,0,0,0.1) 100%);
+background: -o-linear-gradient(top, rgba(230,230,230,0.1) 0%, rgba(0,0,0,0.1) 100%);
+/* background: linear-gradient(to bottom, rgba(230,230,230,0.1) 0%, rgba(0,0,0,0.1) 100%); */
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='rgba(230, 230, 230, 0.1)', EndColorStr='rgba(0, 0, 0, 0.1)');
+-webkit-user-select: none!important;
+-moz-user-select: none!important;
+-ms-user-select: none!important;
+user-select: none!important;
+text-decoration: none!important;
+outline: none!important;
+text-overflow: ellipsis!important;
+  }
+
+  .dt-button:hover{
+      background-color: #357c82;
+      color: white;
+      border: 1px solid #357c82;
+
+  }
+  #example_filter{
+      display: none!important;
+  }
+
+  #example_previous{
+      padding: 6px;
+      color: white!important;
+      background-color: #72b89d;
+      border:1px solid #72b89d;
+      border-radius: 4px;
+  }
+  #example_next{
+      padding: 6px;
+      color: white!important;
+      background-color: #72b89d;
+      border:1px solid #72b89d;
+      border-radius: 4px;
+  }
+
+  .paginate_button{
+    padding: 4px;
+    color: white!important;
+    margin: 4px!important;
+    background-color: #72b89d;
+    border:1px solid #72b89d;
+    border-radius: 4px;
+}
+.paginate_button.current{
+    padding: 4px;
+    color: white!important;
+    margin: 4px!important;
+    background-color: #72b89d!important;
+    border:1px solid #72b89d!important;
+    border-radius: 4px!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current .paginate_button.current:hover{
+    padding: 4px;
+    color: white!important;
+    margin: 4px!important;
+    background-color: #72b89d!important;
+    border:1px solid #72b89d!important;
+    border-radius: 14px!important;
+}
+
+tfoot{
+    display: none;
+}
+
+#example_paginate{
+    margin-top: 42px;
+}
+#example_info{
+    margin-top: 42px;
+}
+div .dt-buttons{
+    margin-bottom: 25px!important;
+}
+
+thead tr{
+    background-color: #45a7b0;
+    color: white;
+}
